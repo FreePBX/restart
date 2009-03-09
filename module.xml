@@ -1,0 +1,20 @@
+<module>
+	<rawname>restart</rawname>
+	<name>Bulk Phone Restart</name>
+	<version>2.6.0.0</version>
+	<type>setup</type>
+	<category>Internal Options &amp; Configuration</category>
+	<changelog>
+		*2.6.0.0* Initial release
+	</changelog>
+	<depends>
+		<version>2.5.0</version>
+	</depends>
+	<description>This module allows users to restart one or multiple phones that support being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf 
+	</description>
+	<menuitems>
+		<restart>Phone Restart</restart>
+	</menuitems>
+	<location>release/2.6/restart-2.6.0.0.tgz</location>
+	<md5sum>4b89ca47df8b00b14f25a488f5b912de</md5sum>
+</module>
