@@ -2,6 +2,8 @@
 	<rawname>restart</rawname>
 	<name>Bulk Phone Restart</name>
 	<version>2.6.0.0</version>
+	<publisher>Schmoozecom.com</publisher>
+	<license>GPLv2</license>
 	<type>setup</type>
 	<category>Internal Options &amp; Configuration</category>
 	<changelog>
