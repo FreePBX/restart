@@ -83,7 +83,7 @@ switch ($action) {
 	</table>
 	</form>
 	<script language="javascript">
-	<!--
+	<!-- hide script from older browsers
 
 	function selectAll(selectBox,selectAll) {
 		// have we been passed an ID
@@ -97,5 +97,5 @@ switch ($action) {
 			}
 		}
 	}
+	// end of hiding script -->
 	</script>
-?>
