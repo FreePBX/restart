@@ -59,3 +59,7 @@ msgstr ""
 "Välj enhet(er) som ska startas om. För närvarande är endast Aastra, Snom, Polycom, "
 "Grandstream och Cisco-enheter som stöds. Andra enhter kommer inte att visas i denna lista. "
 "Klicka på \"Välj alla\" för att starta om alla enheter som stöds."
+
+#: module.xml
+msgid "Phone Restart"
+msgstr "Telefonomstart"

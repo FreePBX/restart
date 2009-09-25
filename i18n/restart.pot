@@ -54,3 +54,7 @@ msgid ""
 "show up in this list.  Click the \"Select All\" button to restart all "
 "supported devices. "
 msgstr ""
+
+#: module.xml
+msgid "Phone Restart"
+msgstr ""
