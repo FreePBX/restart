@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 13:45+0100\n"
+"POT-Creation-Date: 2010-02-27 17:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,26 +28,21 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: restart/page.restart.php:44 restart/page.restart.php:81
 msgid "Restart Phones"
 msgstr ""
 
-#: restart/page.restart.php:46
 msgid "Restart requests sent!"
 msgstr ""
 
-#: restart/page.restart.php:49
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
 "an updated firmware is available via tftp/ftp/http"
 msgstr ""
 
-#: restart/page.restart.php:54
 msgid "Device List:"
 msgstr ""
 
-#: restart/page.restart.php:54
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
@@ -55,23 +50,19 @@ msgid ""
 "supported devices. "
 msgstr ""
 
-#: restart/restart.i18n.php:5
 msgid "Bulk Phone Restart"
 msgstr ""
 
-#: restart/restart.i18n.php:7
 msgid ""
 "Internal Options \n"
 "&\n"
 " Configuration"
 msgstr ""
 
-#: restart/restart.i18n.php:11
 msgid ""
 "This module allows users to restart one or multiple phones that support "
 "being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
 msgstr ""
 
-#: restart/restart.i18n.php:13
 msgid "Phone Restart"
 msgstr ""
