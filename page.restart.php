@@ -17,11 +17,6 @@ $display = isset($_REQUEST['display'])?$_REQUEST['display']:'restart';
 $action = isset($_REQUEST['action'])?$_REQUEST['action']:'';
 $restartlist = isset($_REQUEST['restartlist'])?$_REQUEST['restartlist']:'';
 
-?>
-
-</div>
-<?php
-
 switch ($action) {
 	case "restart":
 		$restarted = false;
@@ -41,7 +36,7 @@ switch ($action) {
 	echo "<input type='hidden' name='action' value='restart'>\n";
 	echo "<input type='hidden' name='display' value='${display}'>\n";
 
-	echo "<table><tr><td><div class='content'><h2>"._("Restart Phones")."</h2></span></td></tr>\n";
+	echo "<table><tr><td><div class='content'><h2>"._("Restart Phones")."</h2></td></tr>\n";
 	if($restarted)  {
 		echo "<tr><td><b>"._("Restart requests sent!")."</b><br/><br/></td></tr>";
 	}
