@@ -1,12 +1,13 @@
 <module>
 	<rawname>restart</rawname>
 	<name>Bulk Phone Restart</name>
-	<version>2.7.0.0</version>
+	<version>2.8.0.0</version>
 	<publisher>Schmoozecom.com</publisher>
 	<license>GPLv2</license>
 	<type>setup</type>
 	<category>Internal Options &amp; Configuration</category>
 	<changelog>
+		*2.8.0.0* #4309
 		*2.7.0.0* localizations
 		*2.6.0.1* #3912
 		*2.6.0.0* Initial release
@@ -19,6 +20,6 @@
 	<menuitems>
 		<restart>Phone Restart</restart>
 	</menuitems>
-	<location>release/2.7/restart-2.7.0.0.tgz</location>
-	<md5sum>7f615b4593b86f867185f7d78a003108</md5sum>
+	<location>release/2.8/restart-2.8.0.0.tgz</location>
+	<md5sum>821fc61510ca203c83e046ddd7bc4322</md5sum>
 </module>
