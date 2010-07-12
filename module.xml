@@ -21,6 +21,6 @@
 	<menuitems>
 		<restart>Phone Restart</restart>
 	</menuitems>
-	<location>release/2.8/restart-2.8.0.0.tgz</location>
-	<md5sum>821fc61510ca203c83e046ddd7bc4322</md5sum>
+	<location>release/2.8/restart-2.8.0.1.tgz</location>
+	<md5sum>9c5a52ea7969e972e33b99d36d6fd099</md5sum>
 </module>
