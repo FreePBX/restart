@@ -20,14 +20,15 @@ function restart_get_config($engine) {
   switch($engine) {
     case "asterisk":
 	    if (isset($core_conf) && is_a($core_conf, "core_conf")) {
-        $core_conf->addSipNotify('polycom-check-cfg',array('Event' => 'check-sync','Content-Length' => '0'));
-        $core_conf->addSipNotify('sipura-check-cfg',array('Event' => 'resync','Content-Length' => '0'));
-        $core_conf->addSipNotify('grandstream-check-cfg',array('Event' => 'sys-control'));
-        $core_conf->addSipNotify('cisco-check-cfg',array('Event' => 'check-sync','Content-Length' => '0'));
-        $core_conf->addSipNotify('reboot-snom',array('Event' => 'reboot','Content-Length' => '0'));
-        $core_conf->addSipNotify('aastra-check-cfg',array('Event' => 'check-sync','Content-Length' => '0'));
-        $core_conf->addSipNotify('aastra-xml',array('Event' => 'aastra-xml','Content-Length' => '0'));
-      }
+			$core_conf->addSipNotify('polycom-check-cfg',array('Event' => 'check-sync','Content-Length' => '0'));
+			$core_conf->addSipNotify('sipura-check-cfg',array('Event' => 'resync','Content-Length' => '0'));
+			$core_conf->addSipNotify('grandstream-check-cfg',array('Event' => 'sys-control'));
+			$core_conf->addSipNotify('cisco-check-cfg',array('Event' => 'check-sync','Content-Length' => '0'));
+			$core_conf->addSipNotify('reboot-snom',array('Event' => 'reboot','Content-Length' => '0'));
+			$core_conf->addSipNotify('aastra-check-cfg',array('Event' => 'check-sync','Content-Length' => '0'));
+			$core_conf->addSipNotify('aastra-xml',array('Event' => 'aastra-xml','Content-Length' => '0'));
+			$core_conf->addSipNotify('reboot-yealink',array('Event' => 'check-sync\;reboot=true','Content-Length' => '0'));
+        }
 
     break;
   }
@@ -73,6 +74,10 @@ function get_device_useragent($device)  {
 		if(stristr($ua,"Polycom"))  {
 			return "polycom";
 		}
+		if(stristr($ua,"Yealink"))  {
+            return "yealink";
+        }
+
 	}
 	return null;
 }
@@ -93,6 +98,9 @@ function restart_device($device)  {
 			break;
 		case "polycom":
 			sip_notify("polycom-check-cfg",$device);
+			break;
+		case "yealink":
+			sip_notify("reboot-yealink",$device);
 			break;
 		default:
 			break;
