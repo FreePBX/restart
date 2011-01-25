@@ -1,16 +1,4 @@
 <?php
-
-if (! function_exists("out")) {
-	function out($text) {
-		echo $text."<br />";
-	}
-}
-
-if (! function_exists("outn")) {
-	function outn($text) {
-		echo $text;
-	}
-}
 global $amp_conf;
 
 $src = dirname(__FILE__).'/etc/sip_notify.conf';
