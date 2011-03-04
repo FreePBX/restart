@@ -52,7 +52,7 @@ function get_device_useragent($device)  {
 	$astout = explode("\n",$response['data']);
 	$ua = "";
 	foreach($astout as $entry)  {
-		if(eregi("useragent",$entry))  {
+    if(strstr(strtolower($entry), "useragent") !== false) {
 			list(,$value) = preg_split("/:/",$entry);
 			$ua = trim($value);
 		}
