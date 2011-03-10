@@ -14,19 +14,25 @@
 #    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
 #
 # FreePBX language template for restart
-# Copyright (C) 2008, 2009, 2010 Bandwith.com
+# Copyright (C) 2008, 2009, 2010, 2011 Bandwith.com
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 17:34+0100\n"
+"POT-Creation-Date: 2011-03-10 22:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "ok"
+msgstr ""
+
+msgid "FAILED"
+msgstr ""
 
 msgid "Restart Phones"
 msgstr ""
@@ -48,21 +54,4 @@ msgid ""
 "Grandstream and Cisco devices are supported.  All other devices will not "
 "show up in this list.  Click the \"Select All\" button to restart all "
 "supported devices. "
-msgstr ""
-
-msgid "Bulk Phone Restart"
-msgstr ""
-
-msgid ""
-"Internal Options \n"
-"&\n"
-" Configuration"
-msgstr ""
-
-msgid ""
-"This module allows users to restart one or multiple phones that support "
-"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
-msgstr ""
-
-msgid "Phone Restart"
 msgstr ""
