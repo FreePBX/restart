@@ -5,8 +5,7 @@
 	<version>2.9.0.2</version>
 	<publisher>Schmoozecom.com</publisher>
 	<license>GPLv2</license>
-	<type>setup</type>
-	<category>Internal Options &amp; Configuration</category>
+	<category>Admin</category>
 	<changelog>
 		*2.9.0.2* #4401
 		*2.9.0.1* removed duplicate functions
