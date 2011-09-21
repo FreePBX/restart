@@ -2,11 +2,12 @@
 	<rawname>restart</rawname>
 	<repo>extended</repo>
 	<name>Bulk Phone Restart</name>
-	<version>2.9.0.2</version>
+	<version>2.10.0.0</version>
 	<publisher>Schmoozecom.com</publisher>
 	<license>GPLv2</license>
 	<category>Admin</category>
 	<changelog>
+		*2.10.0.0* new version changes
 		*2.9.0.2* #4401
 		*2.9.0.1* removed duplicate functions
 		*2.9.0.0* #4627
@@ -24,6 +25,6 @@
 	<menuitems>
 		<restart>Phone Restart</restart>
 	</menuitems>
-	<location>release/2.9/restart-2.9.0.2.tgz</location>
-	<md5sum>c457835a932daa18aa5c957505d18cd7</md5sum>
+	<location>release/2.10/restart-2.10.0.0.tgz</location>
+	<md5sum>66d7540b2a3caa337348eafcfc8a6566</md5sum>
 </module>
