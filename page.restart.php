@@ -64,7 +64,7 @@ switch ($action) {
 	?>
 	</select>		
 	</td></tr>
-	<tr><td><input type="button" name="Button" value="Select All" onclick="selectAll('xtnlist',true)" /></td></tr>
+	<tr><td><input type="button" name="Button" value="<?php echo _('SELECT ALL'); ?>" onclick="selectAll('xtnlist',true)" /></td></tr>
 
 <?php
 			// implementation of module hook
