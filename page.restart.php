@@ -1,5 +1,6 @@
 <?php 
 /* $Id: */
+if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 //Copyright (C) 2009 Ethan Schreoder (ethan.schroeder@schmoozecom.com)
 //
 //This program is free software; you can redistribute it and/or

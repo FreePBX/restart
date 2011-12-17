@@ -1,4 +1,5 @@
 <?php
+if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 global $amp_conf;
 
 $src = dirname(__FILE__).'/etc/sip_notify.conf';
