@@ -33,7 +33,7 @@ switch ($action) {
 ?>
 <p>
 <?php
-	echo "<form name='restart' action='".$_SERVER['PHP_SELF']."' method'post'>\n";
+	echo "<form name='restart' action='".$_SERVER['PHP_SELF']."' method='post'>\n";
 	echo "<input type='hidden' name='action' value='restart'>\n";
 	echo "<input type='hidden' name='display' value='${display}'>\n";
 
