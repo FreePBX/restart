@@ -23,7 +23,7 @@ function restart_get_config($engine) {
 	    if (isset($core_conf) && is_a($core_conf, "core_conf")) {
                         $core_conf->addSipNotify('polycom-check-cfg',array('Event' => 'check-sync'));
                         $core_conf->addSipNotify('sipura-check-cfg',array('Event' => 'resync'));
-                        $core_conf->addSipNotify('grandstream-check-cfg',array('Event' => 'sys-control'));
+                        $core_conf->addSipNotify('grandstream-check-cfg',array('Event' => 'check-sync'));
                         $core_conf->addSipNotify('cisco-check-cfg',array('Event' => 'check-sync'));
                         $core_conf->addSipNotify('reboot-snom',array('Event' => 'reboot'));
                         $core_conf->addSipNotify('aastra-check-cfg',array('Event' => 'check-sync'));
@@ -32,7 +32,11 @@ function restart_get_config($engine) {
                         $core_conf->addSipNotify('linksys-cold-restart',array('Event' => 'reboot_now'));
                         $core_conf->addSipNotify('linksys-warm-restart',array('Event' => 'restart_now'));
                         $core_conf->addSipNotify('reboot-yealink',array('Event' => 'check-sync\;reboot=true'));
-
+						$core_conf->addSipNotify('panasonic-check-cfg',array('Event' => 'check-sync'));
+						$core_conf->addSipNotify('audiocodes-check-cfg',array('Event' => 'check-sync'));
+						$core_conf->addSipNotify('algo-check-cfg',array('Event' => 'check-sync'));
+						$core_conf->addSipNotify('cyberdata-check-cfg',array('Event' => 'check-sync'));	
+			
         }
 
     break;
