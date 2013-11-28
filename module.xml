@@ -31,4 +31,4 @@
 	</menuitems>
 	<location>release/2.11/restart-2.10.0.4.tgz</location>
 	<md5sum>d015a26c2036b699c283099cfdd2777e</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>
