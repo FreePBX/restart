@@ -29,4 +29,4 @@
 	</menuitems>
 	<location>release/2.10/restart-2.10.0.2.tgz</location>
 	<md5sum>5ae443777dfa127cf85260a863885cd5</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>
