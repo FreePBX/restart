@@ -27,4 +27,4 @@
 	</menuitems>
 	<location>release/2.10/restart-2.10.0.0.tgz</location>
 	<md5sum>66d7540b2a3caa337348eafcfc8a6566</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>
