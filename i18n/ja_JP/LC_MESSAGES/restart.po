@@ -1,0 +1,101 @@
+# CREDITS for JAPANESE TRANSLATION
+# ================================
+# Current translation & maintenance: QLOOG, Inc. (Kobe, Japan)
+# Inquiries: info@qloog.com / www.qloog.com
+# 
+# This translation is a culmination of the hard work of
+# several outstanding individuals, which started in 2009 with the 
+# first-ever Japanese localization of FreePBX by Kenichi Fukaumi 
+# and Kazuhiro Tokuyama (FreePBX Japanized Project).
+#
+# Beginning in 2013, with the approval of the original authors, 
+# QLOOG undertook a large scale overhaul of the translation to 
+# expand it for compatibility with FreePBX 2.11. Our work is, 
+# of course, released under the same GPLv2 license as FreePBX. 
+# We only ask that you kindly retain these credits in honor of 
+# the time and effort that all of us have contributed. Enjoy!
+# 
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for restart
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 19:32+0900\n"
+"PO-Revision-Date: 2013-11-07 13:21+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid "ok"
+msgstr "ok"
+
+msgid "FAILED"
+msgstr "失敗しました"
+
+msgid "Bulk Phone Restart"
+msgstr "複数電話機再起動"
+
+msgid "Admin"
+msgstr "アドミン"
+
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
+msgstr ""
+"このモジュールは、Asteriskのsip_notify.conf内のSIP NOTIFYコマンドを経由した再"
+"起動をサポートする電話機の再起動機能を提供します。"
+
+msgid "Phone Restart"
+msgstr "電話機再起動"
+
+msgid "Restart Phones"
+msgstr "電話機の再起動"
+
+msgid "Restart requests sent!"
+msgstr "再起動リクエストが送信されました!"
+
+msgid ""
+"Warning: The restart mechanism behavior is vendor specific.  Some vendors "
+"only restart the phone if there is a change to the phone configuration or if "
+"an updated firmware is available via tftp/ftp/http"
+msgstr ""
+"Warning: 再起動メカニズムの挙動はベンダーごとに異なります。ベンダーによって"
+"は、電話機の設定が変更された場合や、tftp/ftp/http経由でファームウェアの更新が"
+"利用可能な場合のみ電話機の再起動が行われます。"
+
+msgid "Device List:"
+msgstr "デバイスリスト："
+
+msgid ""
+"Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
+"Grandstream and Cisco devices are supported.  All other devices will not "
+"show up in this list.  Click the \"Select All\" button to restart all "
+"supported devices. "
+msgstr ""
+"再起動するデバイスを選択してください。現状Aastra, Snom, Polycom, "
+"Grandstream, Ciscoのみのサポートとなります。他のデバイスはリストに出現しませ"
+"ん。全ての電話機を再起動する場合は\"全て選択\"ボタンをクリックしてください。"
+
+msgid "SELECT ALL"
+msgstr "全て選択"
