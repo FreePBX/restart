@@ -32,10 +32,10 @@ function restart_get_config($engine) {
                         $core_conf->addSipNotify('linksys-cold-restart',array('Event' => 'reboot_now'));
                         $core_conf->addSipNotify('linksys-warm-restart',array('Event' => 'restart_now'));
                         $core_conf->addSipNotify('reboot-yealink',array('Event' => 'check-sync\;reboot=true'));
-						$core_conf->addSipNotify('panasonic-check-cfg',array('Event' => 'check-sync'));
-						$core_conf->addSipNotify('audiocodes-check-cfg',array('Event' => 'check-sync'));
-						$core_conf->addSipNotify('algo-check-cfg',array('Event' => 'check-sync'));
-						$core_conf->addSipNotify('cyberdata-check-cfg',array('Event' => 'check-sync'));	
+			$core_conf->addSipNotify('panasonic-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('audiocodes-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('algo-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('cyberdata-check-cfg',array('Event' => 'check-sync'));	
 			
         }
 
@@ -84,8 +84,11 @@ function get_device_useragent($device)  {
 			return "polycom";
 		}
 		if(stristr($ua,"Yealink"))  {
-            return "yealink";
-        }
+            		return "yealink";
+        	}
+		if(stristr($ua,"Linksys"))  {
+			return "linksys";
+		}        	
 
 	}
 	return null;
@@ -111,6 +114,9 @@ function restart_device($device)  {
 		case "yealink":
 			sip_notify("reboot-yealink",$device);
 			break;
+		case "linksys":
+			sip_notify("spa-reboot",$device);
+			break;			
 		default:
 			break;
 
