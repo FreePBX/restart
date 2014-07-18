@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* $Id: */
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 //Copyright (C) 2009 Ethan Schreoder (ethan.schroeder@schmoozecom.com)
@@ -33,7 +33,7 @@ switch ($action) {
 ?>
 <p>
 <?php
-	echo "<form name='restart' action='".$_SERVER['PHP_SELF']."' method='post'>\n";
+	echo "<form name='restart' action='' method='post'>\n";
 	echo "<input type='hidden' name='action' value='restart'>\n";
 	echo "<input type='hidden' name='display' value='${display}'>\n";
 
@@ -43,17 +43,17 @@ switch ($action) {
 	}
 	else  {
 		echo "<tr><td><b>"._("Warning: The restart mechanism behavior is vendor specific.  Some vendors only restart the phone if there is a change to the phone configuration or if an updated firmware is available via tftp/ftp/http"). "</b><br/><br/></td></tr>";
-		
+
 	}
 
 ?>
-	<tr><td valign='top'><a href='#' class='info'><?php echo _("Device List:")."<span><br>"._("Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported.  All other devices will not show up in this list.  Click the \"Select All\" button to restart all supported devices. ") ?> 
+	<tr><td valign='top'><a href='#' class='info'><?php echo _("Device List:")."<span><br>"._("Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported.  All other devices will not show up in this list.  Click the \"Select All\" button to restart all supported devices. ") ?>
 	<br><br></span></a></td>
 	<tr>
-	<td valign="top"> 
-	
+	<td valign="top">
+
 	<select multiple="multiple" name="restartlist[]" id="xtnlist"  tabindex="<?php echo ++$tabindex;?>">
-	<?php 
+	<?php
 	if (is_null($selected)) $selected = array();
 	foreach (core_devices_list() as $device) {
 		if($ua = get_device_useragent($device[0]))  {
@@ -63,7 +63,7 @@ switch ($action) {
 		}
 	}
 	?>
-	</select>		
+	</select>
 	</td></tr>
 	<tr><td><input type="button" name="Button" value="<?php echo _('SELECT ALL'); ?>" onclick="selectAll('xtnlist',true)" /></td></tr>
 
@@ -72,7 +72,7 @@ switch ($action) {
 			// object was initialized in config.php
 			echo $module_hook->hookHtml;
 ?>
-	
+
 	<tr>
 	<td colspan="2"><br><h6><input type="submit" name="Submit" type="button" value="<?php echo _("Restart Phones")?>" tabindex="<?php echo ++$tabindex;?>"></h6></td>
 	</tr>
