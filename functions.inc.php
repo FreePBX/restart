@@ -1,46 +1,37 @@
 <?php 
 /* $Id: */
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
-//Copyright (C) 2009 Ethan Schreoder (ethan.schroeder@schmoozecom.com)
+//	License for all code of this FreePBX module can be found in the license file inside the module directory
+//	Copyright 2013 Schmooze Com Inc.
 //
-//This program is free software; you can redistribute it and/or
-//modify it under the terms of version 2 of the GNU General Public
-//License as published by the Free Software Foundation.
-//
-//This program is distributed in the hope that it will be useful,
-//but WITHOUT ANY WARRANTY; without even the implied warranty of
-//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-//GNU General Public License for more details.
 
 //Both of these are used for switch on config.php
 
 function restart_get_config($engine) {
-  global $db;
-  global $ext; 
-  global $core_conf;
-  switch($engine) {
-    case "asterisk":
-	    if (isset($core_conf) && is_a($core_conf, "core_conf")) {
-                        $core_conf->addSipNotify('polycom-check-cfg',array('Event' => 'check-sync'));
-                        $core_conf->addSipNotify('sipura-check-cfg',array('Event' => 'resync'));
-                        $core_conf->addSipNotify('grandstream-check-cfg',array('Event' => 'check-sync'));
-                        $core_conf->addSipNotify('cisco-check-cfg',array('Event' => 'check-sync'));
-                        $core_conf->addSipNotify('reboot-snom',array('Event' => 'reboot'));
-                        $core_conf->addSipNotify('aastra-check-cfg',array('Event' => 'check-sync'));
-                        $core_conf->addSipNotify('aastra-xml',array('Event' => 'aastra-xml'));
-                        $core_conf->addSipNotify('spa-reboot',array('Event' => 'reboot'));
-                        $core_conf->addSipNotify('linksys-cold-restart',array('Event' => 'reboot_now'));
-                        $core_conf->addSipNotify('linksys-warm-restart',array('Event' => 'restart_now'));
-                        $core_conf->addSipNotify('reboot-yealink',array('Event' => 'check-sync\;reboot=true'));
-						$core_conf->addSipNotify('panasonic-check-cfg',array('Event' => 'check-sync'));
-						$core_conf->addSipNotify('audiocodes-check-cfg',array('Event' => 'check-sync'));
-						$core_conf->addSipNotify('algo-check-cfg',array('Event' => 'check-sync'));
-						$core_conf->addSipNotify('cyberdata-check-cfg',array('Event' => 'check-sync'));	
-			
-        }
-
-    break;
-  }
+	global $db;
+	global $ext; 
+	global $core_conf;
+	switch($engine) {
+	case "asterisk":
+		if (isset($core_conf) && is_a($core_conf, "core_conf")) {
+			$core_conf->addSipNotify('polycom-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('sipura-check-cfg',array('Event' => 'resync'));
+			$core_conf->addSipNotify('grandstream-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('cisco-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('reboot-snom',array('Event' => 'reboot'));
+			$core_conf->addSipNotify('aastra-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('aastra-xml',array('Event' => 'aastra-xml'));
+			$core_conf->addSipNotify('spa-reboot',array('Event' => 'reboot'));
+			$core_conf->addSipNotify('linksys-cold-restart',array('Event' => 'reboot_now'));
+			$core_conf->addSipNotify('linksys-warm-restart',array('Event' => 'restart_now'));
+			$core_conf->addSipNotify('reboot-yealink',array('Event' => 'check-sync\;reboot=true'));
+			$core_conf->addSipNotify('panasonic-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('audiocodes-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('algo-check-cfg',array('Event' => 'check-sync'));
+			$core_conf->addSipNotify('cyberdata-check-cfg',array('Event' => 'check-sync'));	
+		}
+		break;
+	}
 }
 
 function restart_get_devices($grp) {
@@ -61,7 +52,7 @@ function get_device_useragent($device)  {
 	$astout = explode("\n",$response['data']);
 	$ua = "";
 	foreach($astout as $entry)  {
-    if(strstr(strtolower($entry), "useragent") !== false) {
+		if(strstr(strtolower($entry), "useragent") !== false) {
 			list(,$value) = preg_split("/:/",$entry);
 			$ua = trim($value);
 		}
@@ -84,8 +75,8 @@ function get_device_useragent($device)  {
 			return "polycom";
 		}
 		if(stristr($ua,"Yealink"))  {
-            return "yealink";
-        }
+			return "yealink";
+		}
 
 	}
 	return null;
@@ -93,26 +84,26 @@ function get_device_useragent($device)  {
 function restart_device($device)  {
 	$ua = get_device_useragent($device);
 	switch($ua)  {
-		case "aastra":
-			sip_notify("aastra-check-cfg",$device);
-			break;
-		case "grandstream":
-			sip_notify("grandstream-check-cfg",$device);
-			break;
-		case "snom":
-			sip_notify("reboot-snom",$device);
-			break;
-		case "cisco":
-			sip_notify("cisco-check-cfg",$device);
-			break;
-		case "polycom":
-			sip_notify("polycom-check-cfg",$device);
-			break;
-		case "yealink":
-			sip_notify("reboot-yealink",$device);
-			break;
-		default:
-			break;
+	case "aastra":
+		sip_notify("aastra-check-cfg",$device);
+		break;
+	case "grandstream":
+		sip_notify("grandstream-check-cfg",$device);
+		break;
+	case "snom":
+		sip_notify("reboot-snom",$device);
+		break;
+	case "cisco":
+		sip_notify("cisco-check-cfg",$device);
+		break;
+	case "polycom":
+		sip_notify("polycom-check-cfg",$device);
+		break;
+	case "yealink":
+		sip_notify("reboot-yealink",$device);
+		break;
+	default:
+		break;
 
 	}
 }
@@ -126,4 +117,3 @@ function sip_notify($event,$device)  {
 	$res = $astman->Command($command);
 }
 
-?>
