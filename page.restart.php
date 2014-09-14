@@ -59,7 +59,7 @@ switch ($action) {
 
 <?php
 			// implementation of module hook
-			// object was initialized in config.php
+			$module_hook = moduleHook::create();
 			echo $module_hook->hookHtml;
 ?>
 
