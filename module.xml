@@ -2,11 +2,13 @@
   <rawname>restart</rawname>
   <repo>extended</repo>
   <name>Bulk Phone Restart</name>
-  <version>2.11.0.0</version>
-  <publisher>Schmoozecom.com</publisher>
-  <license>GPLv2</license>
+  <version>2.11.0.1</version>
+	<publisher>Schmooze Com Inc</publisher>
+	<license>GPLv3+</license>
+	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
   <changelog>
+  		*2.11.0.1* Add license info
 		*2.11.0.0* bump version
 		*2.10.0.4* fix/improve sip notify
 		*2.10.0.3* assotred bug fixes 
