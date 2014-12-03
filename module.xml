@@ -2,17 +2,18 @@
   <rawname>restart</rawname>
   <repo>extended</repo>
   <name>Bulk Phone Restart</name>
-  <version>2.11.0.1</version>
+  <version>12.0.1</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
   <changelog>
+    *12.0.1* Redo module_hook calls to use static obj
   		*2.11.0.1* Add license info
 		*2.11.0.0* bump version
 		*2.10.0.4* fix/improve sip notify
-		*2.10.0.3* assotred bug fixes 
-		*2.10.0.2* #5537 
+		*2.10.0.3* assotred bug fixes
+		*2.10.0.2* #5537
 		*2.10.0.1* minor fixes
 		*2.10.0.0* new version changes
 		*2.9.0.2* #4401
@@ -25,9 +26,9 @@
 		*2.6.0.0* Initial release
 	</changelog>
   <depends>
-    <version>2.5.0</version>
+    <version>12.0.1rc16</version>
   </depends>
-  <description>This module allows users to restart one or multiple phones that support being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf 
+  <description>This module allows users to restart one or multiple phones that support being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf
 	</description>
   <menuitems>
     <restart>Phone Restart</restart>
@@ -35,6 +36,6 @@
   <location>release/2.11/restart-2.11.0.0.tgz</location>
   <md5sum>560c129b3a7c73eed1fe0fb17efe5910</md5sum>
   <supported>
-    <version>2.10</version>
+    <version>12.0</version>
   </supported>
 </module>
