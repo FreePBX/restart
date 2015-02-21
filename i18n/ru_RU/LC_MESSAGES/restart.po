@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 18:09-0500\n"
+"POT-Creation-Date: 2015-02-20 19:59-0500\n"
 "PO-Revision-Date: 2008-01-16 16:38+0100\n"
 "Last-Translator: Alexander Kozyrev <ceo@postmet.com>\n"
 "Language-Team: Russian <faq@postmet.com>\n"
@@ -15,28 +15,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: restart.i18n.php:4
+msgid "Admin"
+msgstr "Админ"
+
+#: restart.i18n.php:3
+msgid "Bulk Phone Restart"
+msgstr "Общий рестарт телефонов"
+
+#: page.restart.php:40
 msgid "Device List:"
 msgstr "Список устройств:"
 
-#: /usr/src/freepbx/restart/install.php:13
+#: install.php:13
 msgid "FAILED"
 msgstr "СБОЙ"
 
-#: /usr/src/freepbx/restart/page.restart.php:30
-#: /usr/src/freepbx/restart/page.restart.php:67
+#: restart.i18n.php:6
+msgid "Phone Restart"
+msgstr "Рестарт телефонов"
+
+#: page.restart.php:30 page.restart.php:67
 msgid "Restart Phones"
 msgstr "Рестарт телефонов"
 
-#: /usr/src/freepbx/restart/page.restart.php:32
+#: page.restart.php:32
 msgid "Restart requests sent!"
 msgstr "Запрост на рестарт послан!"
 
-#: /usr/src/freepbx/restart/page.restart.php:58
+#: page.restart.php:58
 msgid "SELECT ALL"
 msgstr "ВЫБРАТЬ ВСЕ"
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: page.restart.php:40
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
@@ -48,7 +59,13 @@ msgstr ""
 "Cisco. Другие устройства просто не будут видны в этом списке. Кликнуть на "
 "кнопку \"Выбрать все\" для для перезагрузки всех устройств."
 
-#: /usr/src/freepbx/restart/page.restart.php:35
+#: restart.i18n.php:5
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+msgstr ""
+
+#: page.restart.php:35
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
@@ -59,15 +76,9 @@ msgstr ""
 "какие-либо изменения в конфигурации телефонов, или доступно обновление "
 "прошивки через tftp/ftp/http сервис."
 
-#: /usr/src/freepbx/restart/install.php:11
+#: install.php:11
 msgid "ok"
 msgstr "ok"
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr "Общий рестарт телефонов"
-
-#~ msgid "Admin"
-#~ msgstr "Админ"
 
 #~ msgid ""
 #~ "This module allows users to restart one or multiple phones that support "
@@ -77,6 +88,3 @@ msgstr "ok"
 #~ "Модуль позволяет перезагружать один или несколько телефонов, "
 #~ "поддерживающих этот функционал через посылку пакетов SIP NOTIFY используя "
 #~ "настройки Астериск в sip_notify.conf"
-
-#~ msgid "Phone Restart"
-#~ msgstr "Рестарт телефонов"

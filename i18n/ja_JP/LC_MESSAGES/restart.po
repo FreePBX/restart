@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 18:09-0500\n"
+"POT-Creation-Date: 2015-02-20 19:59-0500\n"
 "PO-Revision-Date: 2013-11-07 13:21+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -47,28 +47,39 @@ msgstr ""
 "Language: Japanese\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: restart.i18n.php:4
+msgid "Admin"
+msgstr "アドミン"
+
+#: restart.i18n.php:3
+msgid "Bulk Phone Restart"
+msgstr "複数電話機再起動"
+
+#: page.restart.php:40
 msgid "Device List:"
 msgstr "デバイスリスト："
 
-#: /usr/src/freepbx/restart/install.php:13
+#: install.php:13
 msgid "FAILED"
 msgstr "失敗しました"
 
-#: /usr/src/freepbx/restart/page.restart.php:30
-#: /usr/src/freepbx/restart/page.restart.php:67
+#: restart.i18n.php:6
+msgid "Phone Restart"
+msgstr "電話機再起動"
+
+#: page.restart.php:30 page.restart.php:67
 msgid "Restart Phones"
 msgstr "電話機の再起動"
 
-#: /usr/src/freepbx/restart/page.restart.php:32
+#: page.restart.php:32
 msgid "Restart requests sent!"
 msgstr "再起動リクエストが送信されました!"
 
-#: /usr/src/freepbx/restart/page.restart.php:58
+#: page.restart.php:58
 msgid "SELECT ALL"
 msgstr "全て選択"
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: page.restart.php:40
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
@@ -79,7 +90,13 @@ msgstr ""
 "Grandstream, Ciscoのみのサポートとなります。他のデバイスはリストに出現しませ"
 "ん。全ての電話機を再起動する場合は\"全て選択\"ボタンをクリックしてください。"
 
-#: /usr/src/freepbx/restart/page.restart.php:35
+#: restart.i18n.php:5
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+msgstr ""
+
+#: page.restart.php:35
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
@@ -89,15 +106,9 @@ msgstr ""
 "は、電話機の設定が変更された場合や、tftp/ftp/http経由でファームウェアの更新が"
 "利用可能な場合のみ電話機の再起動が行われます。"
 
-#: /usr/src/freepbx/restart/install.php:11
+#: install.php:11
 msgid "ok"
 msgstr "ok"
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr "複数電話機再起動"
-
-#~ msgid "Admin"
-#~ msgstr "アドミン"
 
 #~ msgid ""
 #~ "This module allows users to restart one or multiple phones that support "
@@ -106,6 +117,3 @@ msgstr "ok"
 #~ msgstr ""
 #~ "このモジュールは、Asteriskのsip_notify.conf内のSIP NOTIFYコマンドを経由し"
 #~ "た再起動をサポートする電話機の再起動機能を提供します。"
-
-#~ msgid "Phone Restart"
-#~ msgstr "電話機再起動"

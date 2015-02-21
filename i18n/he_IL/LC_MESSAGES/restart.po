@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 18:09-0500\n"
+"POT-Creation-Date: 2015-02-20 19:59-0500\n"
 "PO-Revision-Date: 2014-09-12 08:16+0200\n"
 "Last-Translator: Andrew <andrew.nagy@the159.com>\n"
 "Language-Team: Hebrew <http://git.freepbx.org/projects/freepbx/restart/he/>\n"
@@ -31,28 +31,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: restart.i18n.php:4
+msgid "Admin"
+msgstr "ניהול"
+
+#: restart.i18n.php:3
+msgid "Bulk Phone Restart"
+msgstr " העפלה טלפון מחדש גורפת"
+
+#: page.restart.php:40
 msgid "Device List:"
 msgstr "רשימת מכשירים:"
 
-#: /usr/src/freepbx/restart/install.php:13
+#: install.php:13
 msgid "FAILED"
 msgstr "נכשל"
 
-#: /usr/src/freepbx/restart/page.restart.php:30
-#: /usr/src/freepbx/restart/page.restart.php:67
+#: restart.i18n.php:6
+msgid "Phone Restart"
+msgstr "העפל טלפונים מחדש"
+
+#: page.restart.php:30 page.restart.php:67
 msgid "Restart Phones"
 msgstr "העפל טלפונים מחדש"
 
-#: /usr/src/freepbx/restart/page.restart.php:32
+#: page.restart.php:32
 msgid "Restart requests sent!"
 msgstr "בקשות הפעל מחדש שנשלחו!"
 
-#: /usr/src/freepbx/restart/page.restart.php:58
+#: page.restart.php:58
 msgid "SELECT ALL"
 msgstr "בחר הכל "
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: page.restart.php:40
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
@@ -63,7 +74,13 @@ msgstr ""
 "Grandstream  וסיסקו נתמכים. כל המכשירים האחרים לא יופיעו ברשימה זו. לחץ על "
 "\"בחר הכל \" על מנת להפעיל מחדש את כל המכשירים הנתמכים."
 
-#: /usr/src/freepbx/restart/page.restart.php:35
+#: restart.i18n.php:5
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+msgstr ""
+
+#: page.restart.php:35
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
@@ -73,15 +90,9 @@ msgstr ""
 "להפעיל מחדש את הטלפון אם יש שינוי תצורה הטלפון או אם קושחה מעודכנת זמין דרך "
 "TFTP / ftp"
 
-#: /usr/src/freepbx/restart/install.php:11
+#: install.php:11
 msgid "ok"
 msgstr ""
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr " העפלה טלפון מחדש גורפת"
-
-#~ msgid "Admin"
-#~ msgstr "ניהול"
 
 #~ msgid ""
 #~ "This module allows users to restart one or multiple phones that support "
@@ -90,6 +101,3 @@ msgstr ""
 #~ msgstr ""
 #~ "מודול זה מאפשר למשתמשים להפעיל מחדש את אחד או מספר רב של טלפונים התומכים "
 #~ "באמצעות פקודה  SIP NOTIFY ​​דרך sip_notify.conf של אסטריסק"
-
-#~ msgid "Phone Restart"
-#~ msgstr "העפל טלפונים מחדש"

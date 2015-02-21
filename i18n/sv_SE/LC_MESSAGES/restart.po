@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 18:09-0500\n"
+"POT-Creation-Date: 2015-02-20 19:59-0500\n"
 "PO-Revision-Date: 2009-08-25 07:17+0200\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: SWEDISH <mickecamino@gmail.com>\n"
@@ -28,28 +28,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: restart.i18n.php:4
+msgid "Admin"
+msgstr ""
+
+#: restart.i18n.php:3
+msgid "Bulk Phone Restart"
+msgstr ""
+
+#: page.restart.php:40
 msgid "Device List:"
 msgstr "Enhetslista"
 
-#: /usr/src/freepbx/restart/install.php:13
+#: install.php:13
 msgid "FAILED"
 msgstr ""
 
-#: /usr/src/freepbx/restart/page.restart.php:30
-#: /usr/src/freepbx/restart/page.restart.php:67
+#: restart.i18n.php:6
+msgid "Phone Restart"
+msgstr "Telefonomstart"
+
+#: page.restart.php:30 page.restart.php:67
 msgid "Restart Phones"
 msgstr "Starta om telefoner"
 
-#: /usr/src/freepbx/restart/page.restart.php:32
+#: page.restart.php:32
 msgid "Restart requests sent!"
 msgstr "Omstartsbegäran skickad!"
 
-#: /usr/src/freepbx/restart/page.restart.php:58
+#: page.restart.php:58
 msgid "SELECT ALL"
 msgstr ""
 
-#: /usr/src/freepbx/restart/page.restart.php:40
+#: page.restart.php:40
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
@@ -61,7 +72,13 @@ msgstr ""
 "att visas i denna lista. Klicka på \"Välj alla\" för att starta om alla "
 "enheter som stöds."
 
-#: /usr/src/freepbx/restart/page.restart.php:35
+#: restart.i18n.php:5
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+msgstr ""
+
+#: page.restart.php:35
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
@@ -72,9 +89,6 @@ msgstr ""
 "telefonens konfiguration eller om en mjukvaruuppdatering av telefonen skett "
 "via tftp/ftp/http."
 
-#: /usr/src/freepbx/restart/install.php:11
+#: install.php:11
 msgid "ok"
 msgstr ""
-
-#~ msgid "Phone Restart"
-#~ msgstr "Telefonomstart"
