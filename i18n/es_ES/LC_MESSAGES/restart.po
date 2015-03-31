@@ -10,22 +10,24 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:59-0500\n"
-"PO-Revision-Date: 2015-02-20 19:59-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-03-31 08:41+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/restart/es_ES/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: restart.i18n.php:4
 msgid "Admin"
-msgstr ""
+msgstr "Administrador"
 
 #: restart.i18n.php:3
 msgid "Bulk Phone Restart"
-msgstr ""
+msgstr "Reiniciar teléfonos a granel"
 
 #: page.restart.php:40
 msgid "Device List:"
@@ -37,7 +39,7 @@ msgstr "FALLIDO"
 
 #: restart.i18n.php:6
 msgid "Phone Restart"
-msgstr ""
+msgstr "Reiniciar Telefono"
 
 #: page.restart.php:30 page.restart.php:67
 msgid "Restart Phones"
@@ -49,7 +51,7 @@ msgstr "Solicitud de Reinicio enviada!"
 
 #: page.restart.php:58
 msgid "SELECT ALL"
-msgstr ""
+msgstr "SELECCIONAR TODO"
 
 #: page.restart.php:40
 msgid ""
@@ -61,13 +63,16 @@ msgstr ""
 "Seleccionar dispositivo(s) para reiniciar. En la actualidad, sólo Aastra, "
 "Snom, Polycom, Grandstream y dispositivos de Cisco son compatibles. Todos "
 "los otros dispositivos no aparecen en esta lista. Haga clic en el botón \""
-"Seleccionar Todos\" para reiniciar todos los dispositivos compatibles."
+"Seleccionar Todos\" para reiniciar todos los dispositivos compatibles. "
 
 #: restart.i18n.php:5
 msgid ""
 "This module allows users to restart one or multiple phones that support "
 "being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
 msgstr ""
+"Este módulo permite a los usuarios reiniciar uno o varios teléfonos que "
+"admiten ser reiniciados a través de un comando  SIP NOTIFY en  "
+"sip_notify.conf de  Asterisk"
 
 #: page.restart.php:35
 msgid ""
