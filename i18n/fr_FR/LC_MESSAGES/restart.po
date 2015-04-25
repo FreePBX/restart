@@ -10,33 +10,36 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-20 19:59-0500\n"
-"PO-Revision-Date: 2015-02-20 19:59-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-04-25 01:03+0200\n"
+"Last-Translator: philippebolduc <philippe@florenceinc.com>\n"
+"Language-Team: French "
+"<http://weblate.freepbx.org/projects/freepbx/restart/fr_FR/>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: restart.i18n.php:4
 msgid "Admin"
-msgstr ""
+msgstr "Administrateur"
 
 #: restart.i18n.php:3
 msgid "Bulk Phone Restart"
-msgstr ""
+msgstr "Redémarrage de téléphone"
 
 #: page.restart.php:40
 msgid "Device List:"
-msgstr ""
+msgstr "Liste des périphérique :"
 
 #: install.php:13
 msgid "FAILED"
-msgstr ""
+msgstr "ÉCHOUÉ"
 
 #: restart.i18n.php:6
 msgid "Phone Restart"
-msgstr ""
+msgstr "Redémarrage de téléphone"
 
 #: page.restart.php:30 page.restart.php:67
 msgid "Restart Phones"
