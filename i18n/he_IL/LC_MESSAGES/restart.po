@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:59-0500\n"
+"POT-Creation-Date: 2015-05-26 11:51-0400\n"
 "PO-Revision-Date: 2014-09-12 08:16+0200\n"
 "Last-Translator: Andrew <andrew.nagy@the159.com>\n"
 "Language-Team: Hebrew <http://git.freepbx.org/projects/freepbx/restart/he/>\n"
@@ -31,56 +31,41 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
 
-#: restart.i18n.php:4
-msgid "Admin"
-msgstr "ניהול"
+#: page.restart.php:30
+msgid ""
+"Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
+"supported."
+msgstr ""
 
-#: restart.i18n.php:3
-msgid "Bulk Phone Restart"
-msgstr " העפלה טלפון מחדש גורפת"
-
-#: page.restart.php:40
-msgid "Device List:"
-msgstr "רשימת מכשירים:"
+#: page.restart.php:48
+msgid "Device List"
+msgstr ""
 
 #: install.php:13
 msgid "FAILED"
 msgstr "נכשל"
 
-#: restart.i18n.php:6
-msgid "Phone Restart"
-msgstr "העפל טלפונים מחדש"
-
-#: page.restart.php:30 page.restart.php:67
+#: Restart.class.php:24 page.restart.php:33
 msgid "Restart Phones"
 msgstr "העפל טלפונים מחדש"
 
-#: page.restart.php:32
+#: page.restart.php:24
 msgid "Restart requests sent!"
 msgstr "בקשות הפעל מחדש שנשלחו!"
 
-#: page.restart.php:58
+#: page.restart.php:66
 msgid "SELECT ALL"
 msgstr "בחר הכל "
 
-#: page.restart.php:40
+#: page.restart.php:76
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
 "show up in this list.  Click the \"Select All\" button to restart all "
-"supported devices. "
-msgstr ""
-"בחר התקן (ים) להעפיל מחדש. נכון לעכשיו, רק AASTRA, SNOM, Polycom, "
-"Grandstream  וסיסקו נתמכים. כל המכשירים האחרים לא יופיעו ברשימה זו. לחץ על "
-"\"בחר הכל \" על מנת להפעיל מחדש את כל המכשירים הנתמכים."
-
-#: restart.i18n.php:5
-msgid ""
-"This module allows users to restart one or multiple phones that support "
-"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+"supported devices."
 msgstr ""
 
-#: page.restart.php:35
+#: page.restart.php:26
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
@@ -93,6 +78,28 @@ msgstr ""
 #: install.php:11
 msgid "ok"
 msgstr ""
+
+#~ msgid "Admin"
+#~ msgstr "ניהול"
+
+#~ msgid "Bulk Phone Restart"
+#~ msgstr " העפלה טלפון מחדש גורפת"
+
+#~ msgid "Device List:"
+#~ msgstr "רשימת מכשירים:"
+
+#~ msgid "Phone Restart"
+#~ msgstr "העפל טלפונים מחדש"
+
+#~ msgid ""
+#~ "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
+#~ "Grandstream and Cisco devices are supported.  All other devices will not "
+#~ "show up in this list.  Click the \"Select All\" button to restart all "
+#~ "supported devices. "
+#~ msgstr ""
+#~ "בחר התקן (ים) להעפיל מחדש. נכון לעכשיו, רק AASTRA, SNOM, Polycom, "
+#~ "Grandstream  וסיסקו נתמכים. כל המכשירים האחרים לא יופיעו ברשימה זו. לחץ "
+#~ "על \"בחר הכל \" על מנת להפעיל מחדש את כל המכשירים הנתמכים."
 
 #~ msgid ""
 #~ "This module allows users to restart one or multiple phones that support "
