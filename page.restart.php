@@ -37,9 +37,7 @@ $info = isset($info)?$info:'<div class="well well-info">'._("Currently, only Aas
 			<div class="col-sm-12">
 				<div class="fpbx-container">
 					<div class="display full-border">
-						<form name='restart' action='' method='post'>
-							<input type='hidden' name='action' value='restart'>
-							<input type='hidden' name='display' value='restart'>
+						<form name='restart' class="fpbx-submit" action='?display=restart&amp;action=restart' method='post'>
 							<!--Device List-->
 							<div class="element-container">
 								<div class="row">
