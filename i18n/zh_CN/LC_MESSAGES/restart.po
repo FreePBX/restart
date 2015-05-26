@@ -1,0 +1,78 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for restart
+# Copyright (C) 2008-2015 Sangoma, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-20 19:59-0500\n"
+"PO-Revision-Date: 2015-02-20 19:59-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: restart.i18n.php:4
+msgid "Admin"
+msgstr "管理员"
+
+#: restart.i18n.php:3
+msgid "Bulk Phone Restart"
+msgstr " 电话批量启动"
+
+#: page.restart.php:40
+msgid "Device List:"
+msgstr "设备名单:"
+
+#: install.php:13
+msgid "FAILED"
+msgstr "失败"
+
+#: restart.i18n.php:6
+msgid "Phone Restart"
+msgstr "电话重启"
+
+#: page.restart.php:30 page.restart.php:67
+msgid "Restart Phones"
+msgstr "重新启动话机"
+
+#: page.restart.php:32
+msgid "Restart requests sent!"
+msgstr " 重启请求已发送!"
+
+#: page.restart.php:58
+msgid "SELECT ALL"
+msgstr "选择全部"
+
+#: page.restart.php:40
+msgid ""
+"Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
+"Grandstream and Cisco devices are supported.  All other devices will not "
+"show up in this list.  Click the \"Select All\" button to restart all "
+"supported devices. "
+msgstr ""
+"选择重启设备，目前仅支持Aastra, Snom, Polycom, Grandstream and "
+"Cisco。其他厂家的没有列出，请点击选择全部获得支持。"
+
+#: restart.i18n.php:5
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+msgstr ""
+
+#: page.restart.php:35
+msgid ""
+"Warning: The restart mechanism behavior is vendor specific.  Some vendors "
+"only restart the phone if there is a change to the phone configuration or if "
+"an updated firmware is available via tftp/ftp/http"
+msgstr "警告：重启电话机的机制每个厂家都不同，请小心操作，否则可能丢失配置。一些厂家的配置可能通过FTP修改！"
+
+#: install.php:11
+msgid "ok"
+msgstr "בסדר"
