@@ -27,6 +27,7 @@ if(isset($restarted))  {
 	}
 }
 $device_list = core_devices_list();
+$device_list = is_array($device_list)?$device_list:array();
 $info = isset($info)?$info:'<div class="well well-info">'._("Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported.").'</div>';
 ?>
 <div class="container-fluid">
