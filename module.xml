@@ -2,12 +2,13 @@
   <rawname>restart</rawname>
   <repo>extended</repo>
   <name>Bulk Phone Restart</name>
-  <version>13.0.2</version>
+  <version>13.0.3</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
 	<changelog>
+		*13.0.3* FREEPBX-9537 Bulk Phone Restart Error
 		*13.0.2* Version bump Beta
 		*13.0.1alpha1* Visuals
     *12.0.1* Redo module_hook calls to use static obj

@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-26 11:51-0400\n"
+"POT-Creation-Date: 2015-06-23 20:49-0400\n"
 "PO-Revision-Date: 2014-09-12 08:16+0200\n"
 "Last-Translator: Andrew <andrew.nagy@the159.com>\n"
 "Language-Team: Hebrew <http://git.freepbx.org/projects/freepbx/restart/he/>\n"
@@ -31,13 +31,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
 
-#: page.restart.php:30
+#: page.restart.php:31
 msgid ""
 "Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
 "supported."
 msgstr ""
 
-#: page.restart.php:48
+#: page.restart.php:49
 msgid "Device List"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "FAILED"
 msgstr "נכשל"
 
-#: Restart.class.php:24 page.restart.php:33
+#: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
 msgstr "העפל טלפונים מחדש"
 
@@ -53,11 +53,11 @@ msgstr "העפל טלפונים מחדש"
 msgid "Restart requests sent!"
 msgstr "בקשות הפעל מחדש שנשלחו!"
 
-#: page.restart.php:66
+#: page.restart.php:67
 msgid "SELECT ALL"
 msgstr "בחר הכל "
 
-#: page.restart.php:76
+#: page.restart.php:77
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
