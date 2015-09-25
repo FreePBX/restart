@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:59-0500\n"
+"POT-Creation-Date: 2015-06-23 20:49-0400\n"
 "PO-Revision-Date: 2009-08-25 07:17+0200\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: SWEDISH <mickecamino@gmail.com>\n"
@@ -28,57 +28,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: restart.i18n.php:4
-msgid "Admin"
+#: page.restart.php:31
+msgid ""
+"Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
+"supported."
 msgstr ""
 
-#: restart.i18n.php:3
-msgid "Bulk Phone Restart"
+#: page.restart.php:49
+msgid "Device List"
 msgstr ""
-
-#: page.restart.php:40
-msgid "Device List:"
-msgstr "Enhetslista"
 
 #: install.php:13
 msgid "FAILED"
 msgstr ""
 
-#: restart.i18n.php:6
-msgid "Phone Restart"
-msgstr "Telefonomstart"
-
-#: page.restart.php:30 page.restart.php:67
+#: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
 msgstr "Starta om telefoner"
 
-#: page.restart.php:32
+#: page.restart.php:24
 msgid "Restart requests sent!"
 msgstr "Omstartsbegäran skickad!"
 
-#: page.restart.php:58
+#: page.restart.php:67
 msgid "SELECT ALL"
 msgstr ""
 
-#: page.restart.php:40
+#: page.restart.php:77
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
 "show up in this list.  Click the \"Select All\" button to restart all "
-"supported devices. "
-msgstr ""
-"Välj enhet(er) som ska startas om. För närvarande är endast Aastra, Snom, "
-"Polycom, Grandstream och Cisco-enheter som stöds. Andra enhter kommer inte "
-"att visas i denna lista. Klicka på \"Välj alla\" för att starta om alla "
-"enheter som stöds."
-
-#: restart.i18n.php:5
-msgid ""
-"This module allows users to restart one or multiple phones that support "
-"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+"supported devices."
 msgstr ""
 
-#: page.restart.php:35
+#: page.restart.php:26
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
@@ -92,3 +76,20 @@ msgstr ""
 #: install.php:11
 msgid "ok"
 msgstr ""
+
+#~ msgid "Device List:"
+#~ msgstr "Enhetslista"
+
+#~ msgid "Phone Restart"
+#~ msgstr "Telefonomstart"
+
+#~ msgid ""
+#~ "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
+#~ "Grandstream and Cisco devices are supported.  All other devices will not "
+#~ "show up in this list.  Click the \"Select All\" button to restart all "
+#~ "supported devices. "
+#~ msgstr ""
+#~ "Välj enhet(er) som ska startas om. För närvarande är endast Aastra, Snom, "
+#~ "Polycom, Grandstream och Cisco-enheter som stöds. Andra enhter kommer "
+#~ "inte att visas i denna lista. Klicka på \"Välj alla\" för att starta om "
+#~ "alla enheter som stöds."

@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:59-0500\n"
+"POT-Creation-Date: 2015-06-23 20:49-0400\n"
 "PO-Revision-Date: 2014-07-22 16:06+0200\n"
 "Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
 "Language-Team: Bulgarian <http://git.freepbx.org/projects/freepbx/restart/bg/"
@@ -32,53 +32,41 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
 
-#: restart.i18n.php:4
-msgid "Admin"
+#: page.restart.php:31
+msgid ""
+"Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
+"supported."
 msgstr ""
 
-#: restart.i18n.php:3
-msgid "Bulk Phone Restart"
-msgstr ""
-
-#: page.restart.php:40
-msgid "Device List:"
+#: page.restart.php:49
+msgid "Device List"
 msgstr ""
 
 #: install.php:13
 msgid "FAILED"
 msgstr ""
 
-#: restart.i18n.php:6
-msgid "Phone Restart"
-msgstr ""
-
-#: page.restart.php:30 page.restart.php:67
+#: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
 msgstr ""
 
-#: page.restart.php:32
+#: page.restart.php:24
 msgid "Restart requests sent!"
 msgstr ""
 
-#: page.restart.php:58
+#: page.restart.php:67
 msgid "SELECT ALL"
 msgstr ""
 
-#: page.restart.php:40
+#: page.restart.php:77
 msgid ""
 "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
 "Grandstream and Cisco devices are supported.  All other devices will not "
 "show up in this list.  Click the \"Select All\" button to restart all "
-"supported devices. "
+"supported devices."
 msgstr ""
 
-#: restart.i18n.php:5
-msgid ""
-"This module allows users to restart one or multiple phones that support "
-"being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
-msgstr ""
-
-#: page.restart.php:35
+#: page.restart.php:26
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
 "only restart the phone if there is a change to the phone configuration or if "
