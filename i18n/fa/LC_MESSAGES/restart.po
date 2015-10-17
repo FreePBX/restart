@@ -10,38 +10,44 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-23 20:49-0400\n"
-"PO-Revision-Date: 2015-06-23 20:49-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-10-16 20:41+0200\n"
+"Last-Translator: Media <mousavi.media@gmail.com>\n"
+"Language-Team: Persian "
+"<http://weblate.freepbx.org/projects/freepbx/restart/fa/>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: page.restart.php:31
 msgid ""
 "Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
 "supported."
 msgstr ""
+"درحال حاضر دستگاه های Aastra, Snom, Polycom, Grandstream و سیسکو پشتیبانی "
+"میشوند."
 
 #: page.restart.php:49
 msgid "Device List"
-msgstr ""
+msgstr "فهرست دستگاه ها"
 
 #: install.php:13
 msgid "FAILED"
-msgstr ""
+msgstr "ناموفق"
 
 #: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
-msgstr ""
+msgstr "بازنشانی تلفن ها"
 
 #: page.restart.php:24
 msgid "Restart requests sent!"
-msgstr ""
+msgstr "درخواست بازنشانی ارسال شد!"
 
 #: page.restart.php:67
 msgid "SELECT ALL"
-msgstr ""
+msgstr "انتخاب همه"
 
 #: page.restart.php:77
 msgid ""
