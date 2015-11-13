@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-23 20:49-0400\n"
+"POT-Creation-Date: 2015-11-13 14:11-0800\n"
 "PO-Revision-Date: 2014-07-22 16:06+0200\n"
 "Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
 "Language-Team: Bulgarian <http://git.freepbx.org/projects/freepbx/restart/bg/"
@@ -31,6 +31,14 @@ msgstr ""
 "Language: bg\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
+
+#: restart.i18n.php:6 restart.i18n.php:12
+msgid "Admin"
+msgstr ""
+
+#: restart.i18n.php:4
+msgid "Bulk Phone Restart"
+msgstr ""
 
 #: page.restart.php:31
 msgid ""
@@ -44,6 +52,14 @@ msgstr ""
 
 #: install.php:13
 msgid "FAILED"
+msgstr ""
+
+#: functions.inc.php:136
+msgid "Failed to install "
+msgstr ""
+
+#: restart.i18n.php:10
+msgid "Phone Restart"
 msgstr ""
 
 #: Restart.class.php:24 page.restart.php:34
@@ -64,6 +80,12 @@ msgid ""
 "Grandstream and Cisco devices are supported.  All other devices will not "
 "show up in this list.  Click the \"Select All\" button to restart all "
 "supported devices."
+msgstr ""
+
+#: restart.i18n.php:8
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
 msgstr ""
 
 #: page.restart.php:26

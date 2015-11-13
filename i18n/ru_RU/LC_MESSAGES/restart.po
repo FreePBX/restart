@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-23 20:49-0400\n"
+"POT-Creation-Date: 2015-11-13 14:11-0800\n"
 "PO-Revision-Date: 2015-04-23 16:15+0200\n"
 "Last-Translator: Yuriy <alliancesko@gmail.com>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/restart/"
@@ -19,6 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.2-dev\n"
+
+#: restart.i18n.php:6 restart.i18n.php:12
+msgid "Admin"
+msgstr "Админ"
+
+#: restart.i18n.php:4
+msgid "Bulk Phone Restart"
+msgstr "Общий рестарт телефонов"
 
 #: page.restart.php:31
 msgid ""
@@ -33,6 +41,14 @@ msgstr ""
 #: install.php:13
 msgid "FAILED"
 msgstr "СБОЙ"
+
+#: functions.inc.php:136
+msgid "Failed to install "
+msgstr ""
+
+#: restart.i18n.php:10
+msgid "Phone Restart"
+msgstr "Рестарт телефонов"
 
 #: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
@@ -54,6 +70,15 @@ msgid ""
 "supported devices."
 msgstr ""
 
+#: restart.i18n.php:8
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
+msgstr ""
+"Модуль позволяет перезагружать один или несколько телефонов, поддерживающих "
+"этот функционал через посылку пакетов SIP NOTIFY используя настройки "
+"Астериск в sip_notify.conf"
+
 #: page.restart.php:26
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
@@ -69,17 +94,8 @@ msgstr ""
 msgid "ok"
 msgstr "ok"
 
-#~ msgid "Admin"
-#~ msgstr "Админ"
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr "Общий рестарт телефонов"
-
 #~ msgid "Device List:"
 #~ msgstr "Список устройств:"
-
-#~ msgid "Phone Restart"
-#~ msgstr "Рестарт телефонов"
 
 #~ msgid ""
 #~ "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
@@ -100,12 +116,3 @@ msgstr "ok"
 #~ msgstr ""
 #~ "Этот модуль позволяет пользователям один или несколько телефонов, которые "
 #~ "поддерживают рестарт через команды SIP NOTIFY, отправленные Астериском"
-
-#~ msgid ""
-#~ "This module allows users to restart one or multiple phones that support "
-#~ "being restarted via a SIP NOTIFY command through Asterisk's sip_notify."
-#~ "conf"
-#~ msgstr ""
-#~ "Модуль позволяет перезагружать один или несколько телефонов, "
-#~ "поддерживающих этот функционал через посылку пакетов SIP NOTIFY используя "
-#~ "настройки Астериск в sip_notify.conf"

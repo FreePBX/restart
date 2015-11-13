@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-23 20:49-0400\n"
+"POT-Creation-Date: 2015-11-13 14:11-0800\n"
 "PO-Revision-Date: 2015-02-20 19:59-0500\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,6 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
+
+#: restart.i18n.php:6 restart.i18n.php:12
+msgid "Admin"
+msgstr "管理员"
+
+#: restart.i18n.php:4
+msgid "Bulk Phone Restart"
+msgstr " 电话批量启动"
 
 #: page.restart.php:31
 msgid ""
@@ -31,6 +39,14 @@ msgstr ""
 #: install.php:13
 msgid "FAILED"
 msgstr "失败"
+
+#: functions.inc.php:136
+msgid "Failed to install "
+msgstr ""
+
+#: restart.i18n.php:10
+msgid "Phone Restart"
+msgstr "电话重启"
 
 #: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
@@ -52,6 +68,12 @@ msgid ""
 "supported devices."
 msgstr ""
 
+#: restart.i18n.php:8
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
+msgstr ""
+
 #: page.restart.php:26
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
@@ -65,17 +87,8 @@ msgstr ""
 msgid "ok"
 msgstr "בסדר"
 
-#~ msgid "Admin"
-#~ msgstr "管理员"
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr " 电话批量启动"
-
 #~ msgid "Device List:"
 #~ msgstr "设备名单:"
-
-#~ msgid "Phone Restart"
-#~ msgstr "电话重启"
 
 #~ msgid ""
 #~ "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "

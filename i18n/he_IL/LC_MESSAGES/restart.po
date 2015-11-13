@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-23 20:49-0400\n"
+"POT-Creation-Date: 2015-11-13 14:11-0800\n"
 "PO-Revision-Date: 2014-09-12 08:16+0200\n"
 "Last-Translator: Andrew <andrew.nagy@the159.com>\n"
 "Language-Team: Hebrew <http://git.freepbx.org/projects/freepbx/restart/he/>\n"
@@ -30,6 +30,14 @@ msgstr ""
 "Language: he_IL\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 1.10-dev\n"
+
+#: restart.i18n.php:6 restart.i18n.php:12
+msgid "Admin"
+msgstr "ניהול"
+
+#: restart.i18n.php:4
+msgid "Bulk Phone Restart"
+msgstr " העפלה טלפון מחדש גורפת"
 
 #: page.restart.php:31
 msgid ""
@@ -44,6 +52,14 @@ msgstr ""
 #: install.php:13
 msgid "FAILED"
 msgstr "נכשל"
+
+#: functions.inc.php:136
+msgid "Failed to install "
+msgstr ""
+
+#: restart.i18n.php:10
+msgid "Phone Restart"
+msgstr "העפל טלפונים מחדש"
 
 #: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
@@ -65,6 +81,14 @@ msgid ""
 "supported devices."
 msgstr ""
 
+#: restart.i18n.php:8
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
+msgstr ""
+"מודול זה מאפשר למשתמשים להפעיל מחדש את אחד או מספר רב של טלפונים התומכים "
+"באמצעות פקודה  SIP NOTIFY ​​דרך sip_notify.conf של אסטריסק"
+
 #: page.restart.php:26
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
@@ -79,17 +103,8 @@ msgstr ""
 msgid "ok"
 msgstr ""
 
-#~ msgid "Admin"
-#~ msgstr "ניהול"
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr " העפלה טלפון מחדש גורפת"
-
 #~ msgid "Device List:"
 #~ msgstr "רשימת מכשירים:"
-
-#~ msgid "Phone Restart"
-#~ msgstr "העפל טלפונים מחדש"
 
 #~ msgid ""
 #~ "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
@@ -100,11 +115,3 @@ msgstr ""
 #~ "בחר התקן (ים) להעפיל מחדש. נכון לעכשיו, רק AASTRA, SNOM, Polycom, "
 #~ "Grandstream  וסיסקו נתמכים. כל המכשירים האחרים לא יופיעו ברשימה זו. לחץ "
 #~ "על \"בחר הכל \" על מנת להפעיל מחדש את כל המכשירים הנתמכים."
-
-#~ msgid ""
-#~ "This module allows users to restart one or multiple phones that support "
-#~ "being restarted via a SIP NOTIFY command through Asterisk's sip_notify."
-#~ "conf"
-#~ msgstr ""
-#~ "מודול זה מאפשר למשתמשים להפעיל מחדש את אחד או מספר רב של טלפונים התומכים "
-#~ "באמצעות פקודה  SIP NOTIFY ​​דרך sip_notify.conf של אסטריסק"

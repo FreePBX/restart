@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-23 20:49-0400\n"
+"POT-Creation-Date: 2015-11-13 14:11-0800\n"
 "PO-Revision-Date: 2015-03-31 08:41+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/restart/"
@@ -20,6 +20,14 @@ msgstr ""
 "Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.2-dev\n"
+
+#: restart.i18n.php:6 restart.i18n.php:12
+msgid "Admin"
+msgstr "Administrador"
+
+#: restart.i18n.php:4
+msgid "Bulk Phone Restart"
+msgstr "Reiniciar teléfonos a granel"
 
 #: page.restart.php:31
 msgid ""
@@ -34,6 +42,14 @@ msgstr ""
 #: install.php:13
 msgid "FAILED"
 msgstr "FALLIDO"
+
+#: functions.inc.php:136
+msgid "Failed to install "
+msgstr ""
+
+#: restart.i18n.php:10
+msgid "Phone Restart"
+msgstr "Reiniciar Telefono"
 
 #: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
@@ -55,6 +71,12 @@ msgid ""
 "supported devices."
 msgstr ""
 
+#: restart.i18n.php:8
+msgid ""
+"This module allows users to restart one or multiple phones that support "
+"being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
+msgstr ""
+
 #: page.restart.php:26
 msgid ""
 "Warning: The restart mechanism behavior is vendor specific.  Some vendors "
@@ -70,17 +92,8 @@ msgstr ""
 msgid "ok"
 msgstr "ok"
 
-#~ msgid "Admin"
-#~ msgstr "Administrador"
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr "Reiniciar teléfonos a granel"
-
 #~ msgid "Device List:"
 #~ msgstr "Listado de Dispositivos:"
-
-#~ msgid "Phone Restart"
-#~ msgstr "Reiniciar Telefono"
 
 #~ msgid ""
 #~ "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
