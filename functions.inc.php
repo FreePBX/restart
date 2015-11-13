@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* $Id: */
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 //	License for all code of this FreePBX module can be found in the license file inside the module directory
@@ -9,7 +9,7 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 
 function restart_get_config($engine) {
 	global $db;
-	global $ext; 
+	global $ext;
 	global $core_conf;
 	switch($engine) {
 	case "asterisk":
@@ -28,7 +28,7 @@ function restart_get_config($engine) {
 			$core_conf->addSipNotify('panasonic-check-cfg',array('Event' => 'check-sync'));
 			$core_conf->addSipNotify('audiocodes-check-cfg',array('Event' => 'check-sync'));
 			$core_conf->addSipNotify('algo-check-cfg',array('Event' => 'check-sync'));
-			$core_conf->addSipNotify('cyberdata-check-cfg',array('Event' => 'check-sync'));	
+			$core_conf->addSipNotify('cyberdata-check-cfg',array('Event' => 'check-sync'));
 		}
 		break;
 	}
@@ -39,7 +39,7 @@ function restart_get_devices($grp) {
 
 	$sql = "SELECT * FROM devices";
 	$results = $db->getAll($sql);
-	if(DB::IsError($results)) 
+	if(DB::IsError($results))
 		$results = null;
 	foreach ($results as $val)
 		$tmparray[] = $val[0];
@@ -117,3 +117,24 @@ function sip_notify($event,$device)  {
 	$res = $astman->Command($command);
 }
 
+
+function restart_module_install_check_callback($mods = array()) {
+    global $active_modules;
+
+    $ret = array();
+    $current_mod = 'restart';
+    $conflicting_mods = array('endpointman','endpoint');
+
+	foreach($mods as $k => $v) {
+		if (in_array($k, $conflicting_mods) && !in_array($active_modules[$current_mod]['status'],array(MODULE_STATUS_NOTINSTALLED,MODULE_STATUS_BROKEN))) {
+			$ret[] = $v['name'];
+		}
+	}
+
+	if (!empty($ret)) {
+		$modules = implode(',',$ret);
+		return _('Failed to install ' . $modules . ' due to the following conflicting module(s): ' . $active_modules[$current_mod]['displayname']);
+	}
+
+	return TRUE;
+}
