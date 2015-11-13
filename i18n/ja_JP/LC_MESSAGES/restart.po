@@ -37,91 +37,76 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-23 20:49-0400\n"
-"PO-Revision-Date: 2013-11-07 13:21+0900\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-02-20 19:59-0500\n"
+"PO-Revision-Date: 2015-07-03 08:12+0200\n"
+"Last-Translator: Kevin <kevin@qloog.com>\n"
+"Language-Team: Japanese <http://weblate.freepbx.org/projects/freepbx/restart/ja_JP/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: Japanese\n"
-"X-Generator: Poedit 1.5.7\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.2-dev\n"
+
+#: restart.i18n.php:4
+msgid "Admin"
+msgstr "アドミン"
+
+#: restart.i18n.php:3
+msgid "Bulk Phone Restart"
+msgstr "複数電話機再起動"
+
+#: page.restart.php:40
+msgid "Device List:"
+msgstr "デバイスリスト："
+
+#: install.php:13
+msgid "FAILED"
+msgstr "失敗しました"
+
+#: restart.i18n.php:6
+msgid "Phone Restart"
+msgstr "電話機再起動"
+
+#: page.restart.php:30 page.restart.php:67
+msgid "Restart Phones"
+msgstr "電話機の再起動"
+
+#: page.restart.php:32
+msgid "Restart requests sent!"
+msgstr "再起動リクエストが送信されました!"
+
+#: page.restart.php:58
+msgid "SELECT ALL"
+msgstr "全て選択"
+
+#: page.restart.php:40
+msgid "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported.  All other devices will not show up in this list.  Click the \"Select All\" button to restart all supported devices. "
+msgstr "再起動するデバイスを選択してください。現状Aastra, Snom, Polycom, Grandstream, Ciscoのみのサポートとなります。他のデバイスはリストに出現しません。全ての電話機を再起動する場合は\"全て選択\"ボタンをクリックしてください。"
+
+#: restart.i18n.php:5
+msgid "This module allows users to restart one or multiple phones that support being restarted via a SIP NOTIFY command through Asterisk\\'s sip_notify.conf"
+msgstr "再起動するためのSIP NOTIFYコマンドに対応する機種をご利用の場合は、このモジュールから再起動させることができます。各コマンドはAsteriskの sip_notify.conf に定義されています"
+
+#: page.restart.php:35
+msgid "Warning: The restart mechanism behavior is vendor specific.  Some vendors only restart the phone if there is a change to the phone configuration or if an updated firmware is available via tftp/ftp/http"
+msgstr "Warning: 再起動メカニズムの挙動はベンダーごとに異なります。ベンダーによっては、電話機の設定が変更された場合や、tftp/ftp/http経由でファームウェアの更新が利用可能な場合のみ電話機の再起動が行われます。"
+
+#: install.php:11
+msgid "ok"
+msgstr "ok"
 
 #: page.restart.php:31
-msgid ""
-"Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
-"supported."
+msgid "Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported."
 msgstr ""
 
 #: page.restart.php:49
 msgid "Device List"
 msgstr ""
 
-#: install.php:13
-msgid "FAILED"
-msgstr "失敗しました"
-
-#: Restart.class.php:24 page.restart.php:34
-msgid "Restart Phones"
-msgstr "電話機の再起動"
-
-#: page.restart.php:24
-msgid "Restart requests sent!"
-msgstr "再起動リクエストが送信されました!"
-
-#: page.restart.php:67
-msgid "SELECT ALL"
-msgstr "全て選択"
-
 #: page.restart.php:77
-msgid ""
-"Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
-"Grandstream and Cisco devices are supported.  All other devices will not "
-"show up in this list.  Click the \"Select All\" button to restart all "
-"supported devices."
+msgid "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported.  All other devices will not show up in this list.  Click the \"Select All\" button to restart all supported devices."
 msgstr ""
 
-#: page.restart.php:26
-msgid ""
-"Warning: The restart mechanism behavior is vendor specific.  Some vendors "
-"only restart the phone if there is a change to the phone configuration or if "
-"an updated firmware is available via tftp/ftp/http"
-msgstr ""
-"Warning: 再起動メカニズムの挙動はベンダーごとに異なります。ベンダーによって"
-"は、電話機の設定が変更された場合や、tftp/ftp/http経由でファームウェアの更新が"
-"利用可能な場合のみ電話機の再起動が行われます。"
-
-#: install.php:11
-msgid "ok"
-msgstr "ok"
-
-#~ msgid "Admin"
-#~ msgstr "アドミン"
-
-#~ msgid "Bulk Phone Restart"
-#~ msgstr "複数電話機再起動"
-
-#~ msgid "Device List:"
-#~ msgstr "デバイスリスト："
-
-#~ msgid "Phone Restart"
-#~ msgstr "電話機再起動"
-
-#~ msgid ""
-#~ "Select Device(s) to restart.  Currently, only Aastra, Snom, Polycom, "
-#~ "Grandstream and Cisco devices are supported.  All other devices will not "
-#~ "show up in this list.  Click the \"Select All\" button to restart all "
-#~ "supported devices. "
-#~ msgstr ""
-#~ "再起動するデバイスを選択してください。現状Aastra, Snom, Polycom, "
-#~ "Grandstream, Ciscoのみのサポートとなります。他のデバイスはリストに出現しま"
-#~ "せん。全ての電話機を再起動する場合は\"全て選択\"ボタンをクリックしてくださ"
-#~ "い。"
-
-#~ msgid ""
-#~ "This module allows users to restart one or multiple phones that support "
-#~ "being restarted via a SIP NOTIFY command through Asterisk's sip_notify."
-#~ "conf"
-#~ msgstr ""
-#~ "このモジュールは、Asteriskのsip_notify.conf内のSIP NOTIFYコマンドを経由し"
-#~ "た再起動をサポートする電話機の再起動機能を提供します。"
+#~ msgid "This module allows users to restart one or multiple phones that support being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
+#~ msgstr "このモジュールは、Asteriskのsip_notify.conf内のSIP NOTIFYコマンドを経由した再起動をサポートする電話機の再起動機能を提供します。"
