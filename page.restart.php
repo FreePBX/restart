@@ -21,18 +21,18 @@ switch ($action) {
 }
 if(isset($restarted))  {
 	if($restarted){
-		$info = '<div class="well well-info">'._("Restart requests sent!").'</div>';
+		$txtinfo = '<div class="well well-info">'._("Restart requests sent!").'</div>';
 	}else{
-		$info = '<div class="well well-warning">'._("Warning: The restart mechanism behavior is vendor specific.  Some vendors only restart the phone if there is a change to the phone configuration or if an updated firmware is available via tftp/ftp/http"). "</div>";
+		$txtinfo = '<div class="well well-warning">'._("Warning: The restart mechanism behavior is vendor specific.  Some vendors only restart the phone if there is a change to the phone configuration or if an updated firmware is available via tftp/ftp/http"). "</div>";
 	}
 }
 $device_list = core_devices_list();
 $device_list = is_array($device_list)?$device_list:array();
-$info = isset($info)?$info:'<div class="well well-info">'._("Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported.").'</div>';
+$txtinfo = isset($txtinfo)?$txtinfo:'<div class="well well-info">'._("Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are supported.").'</div>';
 ?>
 <div class="container-fluid">
 	<h1><?php echo _('Restart Phones')?></h1>
-	<?php echo $info ?>
+	<?php echo $txtinfo ?>
 	<div class = "display full-border">
 		<div class="row">
 			<div class="col-sm-12">
