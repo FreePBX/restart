@@ -2,12 +2,13 @@
   <rawname>restart</rawname>
   <repo>extended</repo>
   <name>Bulk Phone Restart</name>
-  <version>13.0.4</version>
+  <version>13.0.5</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
 	<changelog>
+		*13.0.5* FREEPBX-10708
 		*13.0.4* FREEPBX-7382 block other modules from installing that conflict with sip notify
 		*13.0.3* FREEPBX-9537 Bulk Phone Restart Error
 		*13.0.2* Version bump Beta
