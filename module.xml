@@ -1,13 +1,14 @@
 <module>
   <rawname>restart</rawname>
-  <repo>extended</repo>
+  <repo>unsupported</repo>
   <name>Bulk Phone Restart</name>
-  <version>2.11.0.1</version>
-	<publisher>Schmooze Com Inc</publisher>
+  <version>2.11.0.2</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
-  <changelog>
+	<changelog>
+			*2.11.0.2* Move to unsupported
   		*2.11.0.1* Add license info
 		*2.11.0.0* bump version
 		*2.10.0.4* fix/improve sip notify
