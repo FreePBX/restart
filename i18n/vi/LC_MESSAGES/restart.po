@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-15 15:46-0800\n"
-"PO-Revision-Date: 2017-07-14 08:37+0200\n"
+"PO-Revision-Date: 2017-07-14 08:39+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/restart/vi/>\n"
@@ -51,11 +51,11 @@ msgstr "Cài đặt không thành công "
 
 #: restart.i18n.php:10
 msgid "Phone Restart"
-msgstr "Khởi động điện thoại"
+msgstr "Khởi động lại điện thoại"
 
 #: Restart.class.php:24 page.restart.php:34
 msgid "Restart Phones"
-msgstr "Khởi động các điện thoại"
+msgstr "Khởi động lại các điện thoại"
 
 #: page.restart.php:24
 msgid "Restart requests sent!"
