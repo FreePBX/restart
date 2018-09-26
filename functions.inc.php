@@ -24,7 +24,7 @@ function restart_get_config($engine) {
 			$core_conf->addSipNotify('spa-reboot',array('Event' => 'reboot'));
 			$core_conf->addSipNotify('linksys-cold-restart',array('Event' => 'reboot_now'));
 			$core_conf->addSipNotify('linksys-warm-restart',array('Event' => 'restart_now'));
-			$core_conf->addSipNotify('reboot-yealink',array('Event' => 'check-sync\;reboot=true'));
+			$core_conf->addSipNotify('reboot-yealink',array('Event' => 'check-sync\;reboot=false'));
 			$core_conf->addSipNotify('panasonic-check-cfg',array('Event' => 'check-sync'));
 			$core_conf->addSipNotify('audiocodes-check-cfg',array('Event' => 'check-sync'));
 			$core_conf->addSipNotify('algo-check-cfg',array('Event' => 'check-sync'));
