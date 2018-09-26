@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-15 15:46-0800\n"
+"POT-Creation-Date: 2018-09-26 00:40-0400\n"
 "PO-Revision-Date: 2018-08-25 15:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/restart/de/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.0.1\n"
 
-#: restart.i18n.php:6 restart.i18n.php:12
+#: restart.i18n.php:6
 msgid "Admin"
 msgstr "Administrator"
 
@@ -73,8 +73,8 @@ msgid ""
 msgstr ""
 "Wählen Sie Geräte, um neu zu starten. Derzeit werden nur Aastra-, Snom-, "
 "Polycom-, Grandstream- und Cisco-Geräte unterstützt. Alle anderen Geräte "
-"werden nicht in dieser Liste angezeigt. Klicken Sie auf die Schaltfläche \""
-"Alle auswählen\", um alle unterstützten Geräte neu zu starten."
+"werden nicht in dieser Liste angezeigt. Klicken Sie auf die Schaltfläche "
+"\"Alle auswählen\", um alle unterstützten Geräte neu zu starten."
 
 #: restart.i18n.php:8
 msgid ""
