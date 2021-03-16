@@ -2,38 +2,16 @@
   <rawname>restart</rawname>
   <repo>unsupported</repo>
   <name>Bulk Phone Restart</name>
-  <version>13.0.7</version>
+  <version>16.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
 	<changelog>
-		*13.0.7* Fixing FREEPBX-18131 Removing reboot by force option from yealink while sending sip notify to yealink phone. 
-		*13.0.6* Change repo to unsupported
-		*13.0.5* FREEPBX-10708
-		*13.0.4* FREEPBX-7382 block other modules from installing that conflict with sip notify
-		*13.0.3* FREEPBX-9537 Bulk Phone Restart Error
-		*13.0.2* Version bump Beta
-		*13.0.1alpha1* Visuals
-    *12.0.1* Redo module_hook calls to use static obj
-  	*2.11.0.1* Add license info
-		*2.11.0.0* bump version
-		*2.10.0.4* fix/improve sip notify
-		*2.10.0.3* assotred bug fixes
-		*2.10.0.2* #5537
-		*2.10.0.1* minor fixes
-		*2.10.0.0* new version changes
-		*2.9.0.2* #4401
-		*2.9.0.1* removed duplicate functions
-		*2.9.0.0* #4627
-		*2.8.0.1* #4426
-		*2.8.0.0* #4309
-		*2.7.0.0* localizations
-		*2.6.0.1* #3912
-		*2.6.0.0* Initial release
+		*16.0.1* 16.0 
 	</changelog>
   <depends>
-    <version>12.0.1rc16</version>
+    <version>16.0</version>
   </depends>
   <description>This module allows users to restart one or multiple phones that support being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf
 	</description>
@@ -43,6 +21,6 @@
   <location>release/2.11/restart-2.11.0.0.tgz</location>
   <md5sum>560c129b3a7c73eed1fe0fb17efe5910</md5sum>
   <supported>
-    <version>13.0</version>
+    <version>16.0</version>
   </supported>
 </module>
