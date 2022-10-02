@@ -2,16 +2,16 @@
   <rawname>restart</rawname>
   <repo>unsupported</repo>
   <name>Bulk Phone Restart</name>
-  <version>16.0.1</version>
+  <version>17.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
   <category>Admin</category>
 	<changelog>
-		*16.0.1* 16.0 
+		*17.0.1alpha* 17.0.1 alpha release
 	</changelog>
   <depends>
-    <version>16.0</version>
+    <version>17.0</version>
   </depends>
   <description>This module allows users to restart one or multiple phones that support being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf
 	</description>
@@ -21,6 +21,6 @@
   <location>release/2.11/restart-2.11.0.0.tgz</location>
   <md5sum>560c129b3a7c73eed1fe0fb17efe5910</md5sum>
   <supported>
-    <version>16.0</version>
+    <version>17.0</version>
   </supported>
 </module>
