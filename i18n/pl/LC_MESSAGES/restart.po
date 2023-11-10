@@ -10,56 +10,62 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-26 00:40-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-11-10 14:13+0000\n"
+"Last-Translator: Szymon Wysokinski <szymon.wysokinski@sqspolska.pl>\n"
+"Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/restart/"
+"pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: restart.i18n.php:6
 msgid "Admin"
-msgstr ""
+msgstr "Administrator"
 
 #: restart.i18n.php:4
 msgid "Bulk Phone Restart"
-msgstr ""
+msgstr "Masowy restart telefonów"
 
 #: page.restart.php:31
 msgid ""
 "Currently, only Aastra, Snom, Polycom, Grandstream and Cisco devices are "
 "supported."
 msgstr ""
+"Obecnie wspierane są tylko telefony Aastra, Snom, Polycom, Grandstream i "
+"Cisco."
 
 #: page.restart.php:49
 msgid "Device List"
-msgstr ""
+msgstr "Lista urządzeń"
 
 #: install.php:13
 msgid "FAILED"
-msgstr ""
+msgstr "NIEPOWODZENIE"
 
 #: functions.inc.php:136
 msgid "Failed to install "
-msgstr ""
+msgstr "Nie udało się dokonać instalacji "
 
 #: restart.i18n.php:10
 msgid "Phone Restart"
-msgstr ""
+msgstr "Restart telefonu"
 
 #: Restart.class.php:24
 #: page.restart.php:34
 msgid "Restart Phones"
-msgstr ""
+msgstr "Restart telefonów"
 
 #: page.restart.php:24
 msgid "Restart requests sent!"
-msgstr ""
+msgstr "Komunikat restartu został wysłany!"
 
 #: page.restart.php:67
 msgid "SELECT ALL"
-msgstr ""
+msgstr "WYBIERZ WSZYSTKIE"
 
 #: page.restart.php:77
 msgid ""
@@ -68,12 +74,19 @@ msgid ""
 "show up in this list.  Click the \"Select All\" button to restart all "
 "supported devices."
 msgstr ""
+"Wybierz urządzenia do zrestartowania.  Obecnie wspierane są tylko telefony "
+"Aastra, Snom, Polycom, Grandstream i Cisco.  Inne urządzenia nie zostaną "
+"wyświetlone na liście. Kliknij przycisk \"Wybierz wszystkie\" aby "
+"zrestartować wspierane urządzenia."
 
 #: restart.i18n.php:8
 msgid ""
 "This module allows users to restart one or multiple phones that support "
 "being restarted via a SIP NOTIFY command through Asterisk's sip_notify.conf"
 msgstr ""
+"Ten moduł pozwala użytkownikom zrestartować jeden lub wiele telefonów "
+"jednocześnie z użyciem comendy SIP NOTIFY z użyciem sip_notify.conf "
+"Asteriska."
 
 #: page.restart.php:26
 msgid ""
@@ -81,7 +94,11 @@ msgid ""
 "only restart the phone if there is a change to the phone configuration or if "
 "an updated firmware is available via tftp/ftp/http"
 msgstr ""
+"Uwaga! Zachowanie telefonów jest zależne od producenta.  Niektórzy "
+"producenci restartują telefony wyłącznie jeżeli nastąpi zmiana konfiguracji "
+"telefonu lub gdy nowe oprogramowanie telefonu jest dostępne przez tftp/ftp/"
+"http"
 
 #: install.php:11
 msgid "ok"
-msgstr ""
+msgstr "ok"
